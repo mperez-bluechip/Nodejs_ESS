@@ -10,7 +10,7 @@ var server = http.createServer(function(req, res){
       <body>
         <h1>Serving HTML Text</h1>
         <p>${req.url}</p>
-        <p>${req.method}</p>
+        <p>${req.method  }</p>
       </body>
     </html>
     `);
