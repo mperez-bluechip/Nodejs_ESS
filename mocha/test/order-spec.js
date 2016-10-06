@@ -24,6 +24,11 @@ describe("Ordering Items", function() {
 
 	});
 
+	it("logs 'item not found'", function(){
+		order.orderItem("ZZZ", 10);
+		expect(this.console.log.calledWith("Item - ZZZ not found")).to.equal(true);
+	});
+
 	it("order an item when there are not enough in stock", function(done) {
 
 		var _this = this;
