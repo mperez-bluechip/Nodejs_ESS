@@ -23,8 +23,10 @@
     "cheerio": "^0.22.0",
     "grunt": "^1.0.1",
     "grunt-autoprefixer": "^3.0.4",
+    "grunt-browserify": "^5.0.0",
     "grunt-contrib-jshint": "^1.0.0",
     "grunt-contrib-less": "^1.4.0",
+    "grunt-contrib-watch": "^1.0.0",
     "rewire": "^2.3.4",
     "supertest": "^2.0.0"
   }
